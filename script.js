@@ -242,6 +242,6 @@ function showResult(){
   👉 우리 아이 맞춤 [마음 처방전] 확인하기
   </button>
 
-  <button onclick="shareKakao('${mbti}')">카카오톡 공유</button>
   `;
 }
+
