@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>폴라밸런스 멍BTI : 마인드 케어 진단</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 카카오 공유 SDK -->
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script>
+    Kakao.init('여기에_네_JS키');
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="start" class="screen active">
+  <h1>🐶 폴라밸런스 멍BTI</h1>
+  <p>우리 아이의 숨겨진 스트레스를 찾아보세요</p>
+  <input id="dogName" placeholder="키우는 강아지 이름을 입력하세요">
+  <button onclick="startTest()">시작하기</button>
+</section>
+
+<section id="quiz" class="screen"></section>
+<section id="result" class="screen"></section>
+
+<script src="script.js"></script>
+</body>
+</html>

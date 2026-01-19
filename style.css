@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f7f8fa;
+}
+
+.screen {
+  display: none;
+  max-width: 720px;
+  margin: auto;
+  padding: 24px;
+}
+
+.screen.active {
+  display: block;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #5b7cfa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.option {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #eef2ff;
+}
+
+.result-img {
+  width: 100%;
+  border-radius: 14px;
+  margin: 20px 0;
+}
