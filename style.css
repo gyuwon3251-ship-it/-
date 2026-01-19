@@ -67,3 +67,12 @@ button {
   z-index: 5;
 }
 
+.screen {
+  pointer-events: none;
+}
+
+.screen.active {
+  pointer-events: auto;
+}
+
+
