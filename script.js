@@ -240,8 +240,9 @@ function showResult(){
 
   <button ${강조} onclick="location.href='https://www.coupang.com/vp/products/9083913135'">
   👉 우리 아이 맞춤 [마음 처방전] 확인하기
-  </button>
+  
 
   `;
 }
+
 
